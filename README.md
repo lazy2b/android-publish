@@ -8,7 +8,7 @@ use android studio (gradle8.0) publish a android libs to mvn central.
 apply plugin: 'com.android.library'
 
 apply from: '../mvn-gradle8.0.gradle' // copy to your libs project
-// apply from: 'https://raw.githubusercontent.com/lazy2b/android-publish/master/mvn-gradle8.0.gradle' // or include from here
+// apply from: 'https://raw.githubusercontent.com/lazy2b/android-publish/main/mvn-gradle8.0.gradle' // or include from here
 
 android {
     // some config...
