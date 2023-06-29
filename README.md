@@ -3,7 +3,7 @@ android libs publishing template! (Gradle8.0)
 
 use android studio (gradle8.0) publish a android libs to mvn central.
 
-1. apply mvn-gradle8.0.gradle to your libs module (build.gradle)
+## 1. apply mvn-gradle8.0.gradle to your libs module (build.gradle)
 ```gradle
 apply plugin: 'com.android.library'
 
@@ -19,7 +19,7 @@ dependencies {
 }
 ```
 
-2. create gradle.properties to your libs module
+## 2. create gradle.properties to your libs module
 ```
 VERSION_NAME=0.0.1-SNAPSHOT
 VERSION_CODE=1
@@ -42,9 +42,9 @@ POM_DEVELOPER_NAME=jack.rezie
 POM_DEVELOPER_EMAIL=rezielibs@gmail.com
 ```
 
-3. add your mvn username & password to your global gradle.properties (~/.gradle/gradle.properties)
+## 3. add your mvn username & password to your global gradle.properties (~/.gradle/gradle.properties)
  
-5. sync your project and publishing your libs.
+## 5. sync your project and publishing your libs.
 exec gradle task : [your-module]/Tasks/publishing/publishMvnCentralReleasePublicationToMavenRepoRepository
 
 ## Acknowledgements
