@@ -47,4 +47,8 @@ POM_DEVELOPER_EMAIL=rezielibs@gmail.com
 5. sync your project and publishing your libs.
 exec gradle task : [your-module]/Tasks/publishing/publishMvnCentralReleasePublicationToMavenRepoRepository
 
-[gradle-mvn-push] https://github.com/chrisbanes/gradle-mvn-push
+## Acknowledgements
+
+Special thanks to the contributors of the following open-source projects:
+
+- gradle-mvn-push: [Link to GitHub repository](https://github.com/chrisbanes/gradle-mvn-push)
