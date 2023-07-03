@@ -1,0 +1,16 @@
+apply plugin: 'signing'
+
+task comps {
+    afterEvaluate {
+        println("Components: " + components*.name)
+    }
+}
+
+
+afterEvaluate {
+    signing {
+        publishing.publications.all { publication ->
+            sign publication
+        }
+    }
+}
